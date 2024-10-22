@@ -34,7 +34,7 @@ This is a React-based account management application that allows users to regist
    cd react-account-management
 2. Install dependencies: npm install
 
-3. Start Project:npm start
+3. Start Project: npm start
 
 
 ## Demo of the project
