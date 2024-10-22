@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url("https://img.freepik.com/https://img.freepik.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-8236.jpg?ga=GA1.1.1489439242.1729621284&semt=ais_hybrid-vector/halftone-style-circular-dotted-pattern-blue-shades_1017-53746.jpg?semt=ais_hybrid");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {

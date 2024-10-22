@@ -1,0 +1,27 @@
+.account-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .profile-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .profile-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .btn-secondary{
+    margin-left: 10px;
+    padding: 10px;
+  }
