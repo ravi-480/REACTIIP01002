@@ -40,3 +40,18 @@ This is a React-based account management application that allows users to regist
 ## Demo of the project
 https://github.com/user-attachments/assets/e321f3d3-7873-4894-8f1c-fa5a72895931
 https://www.transfernow.net/dl/20250211kqwc7KWj/mnlIIh8F
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.transfernow.net/dl/20250220OL6bdiyh/48Jeznr7
+
+https://www.transfernow.net/dl/20250220MTQci7K8/Zn3V91o8
