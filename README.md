@@ -84,4 +84,18 @@ https://www.transfernow.net/dl/20250226gDEHU9Cp/lqm8FGgD
 [https://www.transfernow.net/dl/20250227wjpI6fOb/ZnQBp6qp](https://www.transfernow.net/dl/20250227pPE822Wx/ALxQsq4D)
 https://www.transfernow.net/dl/20250227FQSRmxRe/4p4sOWOS
 
+const handleNext = () => {
+    const nextPage = page + 1;
+    const start = nextPage * 10 - 10;
+    const end = nextPage * 10;
+    setPage(nextPage);
+    setLimit(data.slice(start, end));
+  };
 
+  const handlePrev = () => {
+    const prevPage = page - 1;
+    const start = prevPage * 10 - 10;
+    const end = prevPage * 10;
+    setPage(prevPage);
+    setLimit(data.slice(start, end));
+  };
