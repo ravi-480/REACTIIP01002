@@ -83,7 +83,7 @@ https://www.transfernow.net/dl/20250226gDEHU9Cp/lqm8FGgD
 
 [https://www.transfernow.net/dl/20250227wjpI6fOb/ZnQBp6qp](https://www.transfernow.net/dl/20250227pPE822Wx/ALxQsq4D)
 https://www.transfernow.net/dl/20250227FQSRmxRe/4p4sOWOS
-
+[
 const handleNext = () => {
     const nextPage = page + 1;
     const start = nextPage * 10 - 10;
@@ -99,3 +99,4 @@ const handleNext = () => {
     setPage(prevPage);
     setLimit(data.slice(start, end));
   };
+](https://codesandbox.io/p/sandbox/react-test-forked-y8cpll?file=%2Fsrc%2Fpages%2Fpost.jsx)
