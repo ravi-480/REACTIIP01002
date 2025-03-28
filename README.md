@@ -100,3 +100,44 @@ const handleNext = () => {
     setLimit(data.slice(start, end));
   };
 ](https://codesandbox.io/p/sandbox/react-test-forked-y8cpll?file=%2Fsrc%2Fpages%2Fpost.jsx)
+
+
+
+📝 Project Title:
+EventWise – Event Planning with Budget Management
+
+📌 Project Definition
+EventWise is a full-stack web application for creating and managing events with built-in budget tracking and vendor suggestions. Users should be able to create events with details such as name, date, budget, and guest list. The system should allow expense tracking against the defined budget, cost splitting (equal or custom), and progress visualization. Integration with the Yelp Fusion API should enable vendor search based on category, location, and budget range. RSVP tracking and email notifications must be supported.
+
+🎉 Use Case Example
+User creates a wedding event with a $5000 budget.
+Adds guests and planned expenses like venue, catering, and decoration.
+Splits costs with contributors (equal/custom).
+Searches for vendors like caterers or decorators through Yelp API, filtered by budget and rating.
+Sends RSVP emails to guests and tracks responses.
+Views real-time expense vs. budget updates.
+🧩 Core Features
+1. 📅 Event Management
+Create and manage events (name, date, description, location)
+Add/edit/delete guest list
+Track RSVP responses
+Send email reminders to guests
+2. 💸 Budget & Expense Tracking
+Define total event budget
+Add planned and actual expenses
+Auto-split costs (equally or custom per user)
+Track total spent and remaining budget
+Show progress with budget vs. expenses (progress bar/chart)
+3. 🏷 Vendor Search (Yelp API)
+Search vendors by category (e.g., catering, decoration, venue)
+Filter by location, price range, and rating
+Display vendor data (name, reviews, contact, map link)
+4. 📬 RSVP System
+Send RSVP email invites
+Track who has accepted or declined
+Allow guests to leave notes or preferences (e.g., meal type)
+📈 Optional Features (Post-Demo)
+Cost settlement with payment integration (Stripe/PayPal)
+Export event data to PDF or Excel
+Group chat per event
+Recurring events support
